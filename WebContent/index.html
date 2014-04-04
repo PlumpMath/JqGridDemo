@@ -77,7 +77,7 @@
              jQuery("#projectTable").jqGrid({
                  url: "LoadJsonDataServlet?type=BS21 7RH",
                  datatype: "json",
-                 jsonReader: {repeatitems: false, id: "ref"},
+                 jsonReader: {repeatitems: true, id: "ref"},
                  colNames:['First Name','Last Name', 'Address'],
                  colModel:[
                      {name:'firstName',index:'firstName', width:100},
